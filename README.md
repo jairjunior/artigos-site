@@ -3,10 +3,15 @@
 
 ### Dados do Criador
 **Nome:** Jair Junior
+
 **Formação:** Engenheiro Eletrônico pela Universidade de Brasília - UnB
+
 **Local:** Brasília, *BRASIL*
+
 **E-mail:** contato@jairjunior.eng.br
+
 **Webpage:** http://www.jairjunior.eng.br
+
 
 ### Descrição
 Os códigos-fonte contidos neste repositório são exemplos de exercícios pertencentes
@@ -23,7 +28,7 @@ citada a fonte e seu criador.*
 
 
 ### Sumário
-A seguir, or artigos já publicados no site:
+A seguir, os artigos já publicados no site:
 - [Os parâmetros argc, argv e envp](http://www.jairjunior.eng.br/artigos/parametros-argc-argv-envp/)
 - [Criando Processos em Linux](http://www.jairjunior.eng.br/artigos/criando-processos-em-linux/)
 - [A Família exec() de Chamadas de Sistema](http://www.jairjunior.eng.br/artigos/familia-exec-de-chamadas-de-sistema/)
@@ -32,7 +37,7 @@ A seguir, or artigos já publicados no site:
 - [Programação Multithread com GPIO do Raspberry Pi](http://www.jairjunior.eng.br/artigos/programacao-multithread-com-gpio-do-raspberry-pi/)
 
 
-### Contribua!
+### Contribua! :smile:
 Por favor, contribua para a produção desses artigos divulgando a fonte,
 compartilhando os artigos nas redes sociais, comentando no meu site e deixando
-a sua opinião.
+a sua opinião. :thumbsup: :thumbsup: :thumbsup:

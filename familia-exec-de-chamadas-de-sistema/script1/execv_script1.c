@@ -4,8 +4,9 @@
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 05/10/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que
@@ -18,12 +19,12 @@
  * Neste exemplo, o processo principal criará um novo processo através da
  * chamada fork() e substituirá sua imagem pela de um script executável (bash).
  *
- * É preciso atribuir permissão de execução ao script antes de executar este
- * programa. Para isso use o comando "$ chmod +x nome_do_script.sh"
+ * É preciso atribuir permissão de executável ao script antes de rodar este
+ * programa. Para isso, use o comando "$ chmod +x nome_do_script.sh"
  *
  * Notar que o uso da função execv() requer o caminho completo do programa a
  * ser executado e a lista de argumentos deve ser passada em forma de um vetor
- * de strings do tipo char *.
+ * de strings do tipo char*.
  * ---------------------------------------------------------------------------*/
 
 #include <stdio.h>			//lib para usar fprintf() e perror()
@@ -40,7 +41,7 @@ int main(int argc, char *argv[]){
 
 
 	/* Preenche o vetor de argumentos a ser enviado */
-	args[0] = "print_terminal";
+	args[0] = "print_terminal";	//nome do script a ser executado
 	args[1] = "Hello ";
 	args[2] = "world!";
 	args[3] = (char *) 0;		//equivalente a (char *) NULL

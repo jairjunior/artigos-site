@@ -1,11 +1,12 @@
 /* -----------------------------------------------------------------------------
- * execl_image.c
+ * execl_imagem.c
  *
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 05/10/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que
@@ -17,7 +18,7 @@
  * sistema execl() em conjunto com a chamada fork().
  * Neste exemplo, o processo principal criará um novo processo através da
  * chamada fork() e substituirá sua imagem pela de um executável já existente
- * no disco chamado "image" que deve estar no mesmo diretório.
+ * no disco chamado "imagem" que deve estar no mesmo diretório.
  * ---------------------------------------------------------------------------*/
 
 #include <stdio.h>			//lib para usar fprintf() e perror()
@@ -39,9 +40,9 @@ int main(int argc, char *argv[]){
 	if( child_pid == 0 ){
 
 		/* Código do processo filho */
-		/* Substitui imediatamente a sua imagem pela do binário "image" */
+		/* Substitui imediatamente a sua imagem pela do binário "imagem" */
 		/* Passa os valores 21 e 73 para que o novo programa faça uma soma */
-		execl("./image","image","21","73", (char *) NULL);
+		execl("./imagem","imagem","21","73", (char *) NULL);
 		perror("execl");
 		exit(EXIT_FAILURE);
 

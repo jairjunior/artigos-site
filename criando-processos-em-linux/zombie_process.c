@@ -1,11 +1,12 @@
-/* -----------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------
  * zombie_process.c
  *
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 25/03/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que
@@ -17,8 +18,8 @@
  * processo filho termina antes do processo pai, ele se torna um processo 
  * zombie.
  * 
- * Para observar a atuação destes dois processos deve-se abrir outros 
- * dois terminais a parte. Em um deve-se digitar o seguinte comando:
+ * Para observar a atuação destes dois processos, deve-se abrir outras duas 
+ * janelas do terminais separadas. Em uma deve-se digitar o seguinte comando:
  * $ watch -n 1 'ps -o pid,uname,comm -C zombie_process'
  * 
  * E no outro terminal deve-se digitar o seguinte comando:
@@ -34,7 +35,7 @@
  * e o outro o filho que terá a sua frente a tag <defunct>, indicando que ele é
  * um zumbi. Após os 60 segundos se passarem, ambos os processos somem e não
  * existirá mais processo zumbi.
- * ---------------------------------------------------------------------------*/
+ * --------------------------------------------------------------------------*/
 
 #include<stdio.h>			//lib para usar fprintf() e perror()
 #include<stdlib.h>			//lib para usar macros EXIT_SUCCESS e EXIT_FAILURE

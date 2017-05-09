@@ -4,8 +4,9 @@
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 05/10/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que
@@ -24,6 +25,9 @@
  * Notar que o uso da função execv() requer o caminho absoluto do programa a
  * ser executado e a lista de argumentos deve ser passada em forma de um vetor
  * de strings do tipo char *.
+ * 
+ * Leia também o cabeçalho do script para compreender corretamente o
+ * funcionamento deste código.
  * ---------------------------------------------------------------------------*/
 
 #include <stdio.h>			//lib para usar fprintf() e perror()

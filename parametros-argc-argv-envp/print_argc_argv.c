@@ -6,7 +6,7 @@
  * Local: Brasília, BRASIL
  * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
- * Youtube: www.youtube.com/intterror
+ *
  *
  * Criado sob licença pública.
  * A utilização, distribuição e modificação deste código é livre desde que
@@ -15,7 +15,7 @@
  * Descrição:
  * Este programa deve ser chamado na linha de comando junto com um texto
  * qualquer. Ex:
- * $ ./argc_argv Hello World!
+ * $ ./print_argc_argv Hello World!
  * 
  * O programa irá imprimir na tela o número de argumentos recebidos em argc e
  * as strings contidas em argv (incluindo o próprio nome do programa que é

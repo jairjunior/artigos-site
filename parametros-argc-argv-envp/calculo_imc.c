@@ -6,7 +6,7 @@
  * Local: Brasília, BRASIL
  * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
- * Youtube: www.youtube.com/intterror
+ *
  *
  * Criado sob licença pública.
  * A utilização, distribuição e modificação deste código é livre desde que
@@ -16,6 +16,7 @@
  * Este programa deve ser chamado na linha de comando do terminal repassando
  * o caminho para um arquivo de saída, sua idade, seu peso e sua altura:
  * $ ./calculo_imc /home/user/documentos/saida.txt 25 82.4 1.8
+ * 
  * Deve ser utilizado ponto para separar as casas decimais.
  * O programa irá calcular o IMC do individuo e dizer se ele está abaixo, acima
  * ou no peso correto, imprimindo o resultado no arquivo de saída.

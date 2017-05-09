@@ -1,11 +1,12 @@
-/* -----------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------
  * fork_and_wait.c
  *
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 25/03/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que 
@@ -14,9 +15,9 @@
  * Descrição:
  * Este programa cria um processo filho através da chamada fork() e espera sua 
  * execução terminar através da chamada wait(). Existe uma variável global e 
- * outra local e seus respectivos valores são alterados dentro do processo filho
- * para verificar que esta alteração não surte efeito no processo pai.
- * ---------------------------------------------------------------------------*/
+ * outra local e seus respectivos valores são alterados dentro do processo 
+ * filho para verificar que esta alteração não surte efeito no processo pai.
+ * --------------------------------------------------------------------------*/
 
 #include<stdio.h>			//lib para usar fprintf() e perror()
 #include<stdlib.h>			//lib para usar macros EXIT_SUCCESS e EXIT_FAILURE

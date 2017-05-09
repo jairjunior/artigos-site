@@ -1,11 +1,12 @@
-/* -----------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------
  * wait_all.c
  *
  * Criador: Jair Dias de Oliveira Junior, Engenheiro Eletrônico
  * Data: 13/04/2015
  * Local: Brasília, BRASIL
- * E-mail: j.junior89@hotmail.com
+ * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
+ *
  *
  * Criado sob licença pública.
  * A distribuição, replicação e modificação deste código é livre desde que
@@ -16,7 +17,7 @@
  * processos filhos finalizarem. O processo pai cria 5 processos filhos que
  * ficarão inativos por tempos diferentes e depois encerrarão. O processo pai
  * ficará monitorando o término dos filhos até que não haja mais filhos vivos.
- * ---------------------------------------------------------------------------*/
+ * --------------------------------------------------------------------------*/
 
 #include<stdio.h>			//lib para usar fprintf() e perror()
 #include<stdlib.h>			//lib para usar macros EXIT_SUCCESS e EXIT_FAILURE

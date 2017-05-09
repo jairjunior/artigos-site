@@ -6,7 +6,7 @@
  * Local: Brasília, BRASIL
  * E-mail: contato@jairjunior.eng.br
  * Webpage: www.jairjunior.eng.br
- * Youtube: www.youtube.com/intterror
+ *
  *
  * Criado sob licença pública.
  * A utilização, distribuição e modificação deste código é livre desde que
@@ -17,9 +17,9 @@
  * qualquer. Ex:
  * $ ./argc_argv Hello World!
  * 
- * O programa irá imprimir na tela o número de argumentos recebidos em argc,
- * as strings contidas em argv (incluindo o próprio nome do programa que é
- * sempre o primeiro argumento) e as variáveis de ambiente recebidas em envp.
+ * Este programa recebe argumentos de linha de comando em *argv[] bem como as
+ * variáveis de ambiente do sistema e imprime todo esse conjunto de informações
+ * na tela do terminal.
  * --------------------------------------------------------------------------*/
 
 #include<stdio.h>	//lib para usar fprintf()

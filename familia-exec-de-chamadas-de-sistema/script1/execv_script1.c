@@ -29,7 +29,7 @@
 
 #include <stdio.h>			//lib para usar fprintf() e perror()
 #include <stdlib.h>			//lib para usar getenv()
-#include <unistd.h>			//lib para usar fork()
+#include <unistd.h>			//lib para usar fork() e exec()
 #include <sys/types.h>		//lib para usar tipo pid_t
 #include <sys/wait.h>		//lib para usar wait()
 

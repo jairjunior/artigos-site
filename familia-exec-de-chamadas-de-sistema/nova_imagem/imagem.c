@@ -23,7 +23,7 @@
  * organização do projeto.
  * ---------------------------------------------------------------------------*/
 
-#include <stdio.h>			//lib para usar printf()
+#include <stdio.h>			//lib para usar printf() e fprintf()
 #include <stdlib.h>			//lib para usar atoi()
 
 

@@ -21,7 +21,7 @@
 
 #include<stdio.h>			//lib para usar fprintf() e perror()
 #include<stdlib.h>			//lib para usar macros EXIT_SUCCESS e EXIT_FAILURE
-#include<unistd.h>			//lib para usar fork() e getpid()
+#include<unistd.h>			//lib para usar fork(), getpid() e sleep()
 #include<sys/types.h>		//lib para usar tipo pid_t
 #include<errno.h>			//para ter acesso à variável externa errno
 
